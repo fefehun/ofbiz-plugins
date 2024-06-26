@@ -22,17 +22,22 @@ under the License.
           xsi:noNamespaceSchemaLocation="https://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
     <property key="GenericServiceValidationErrorMessage">
         <value xml:lang="en">${service} validation failed. The request contained invalid information and could not be processed.</value>
+        <value xml:lang="hu">${service} az ellenőrzés sikertelen. A kérés érvénytelen információkat tartalmazott, és nem lehetett feldolgozni.</value>
     </property>
     <property key="GenericServiceExecutionGenericEntityOperationErrorMessage">
         <value xml:lang="en">${service} execution failed. The request contained invalid information and could not be processed.</value>
+        <value xml:lang="hu">${service} a végrehajtás sikertelen. A kérés érvénytelen információkat tartalmazott, és nem lehetett feldolgozni.</value>
     </property>
     <property key="GenericServiceExecutionGenericExceptionErrorMessage">
         <value xml:lang="en">${service} execution failed. The service encountered an error; please try again later.</value>
+        <value xml:lang="hu">${service} a végrehajtás sikertelen. A szolgáltatás hibát észlelt; kérjük, próbálja meg később újra.</value>
     </property>
     <property key="NoSuchEntityDefaultMessage">
         <value xml:lang="en">${service} execution failed. The requested entity does not exist.</value>
+        <value xml:lang="hu">${service} a végrehajtás sikertelen. A kért entitás nem létezik.</value>
     </property>
      <property key="GenericServiceErrorMessage">
         <value xml:lang="en">${service} returned error. The request contained invalid information and could not be processed.</value>
+        <value xml:lang="hu">${service} visszaadott hiba. A kérés érvénytelen információt tartalmazott, és nem lehetett feldolgozni.</value>
     </property>
 </resource>
